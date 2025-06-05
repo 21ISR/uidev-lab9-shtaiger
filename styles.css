@@ -3,6 +3,74 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    margin-top: 50px;
+    gap: 22px;
+    margin-top: 55px;
 }
+
+.button{
+    color:#ffffff;
+    background-color: #2e91d3;
+    border: none;
+    padding: 11px 16px;
+}
+
+button:hover{
+
+    background-color:#2e91d3
+    
+}
+
+button:active{
+    background-color: #2e91d3;
+    border-radius:  20%;
+    padding: 16px;
+}
+
+.input{
+    border:none;
+    outline: solid 2px #ccc;
+}
+
+
+
+input:focus{
+    border: none;
+    outline: solid 1px #2e91d3;
+}
+
+input:disabled{
+    background-color: #ffffff;
+}
+
+a{
+    color:#2e91d3;
+    text-decoration: none;
+}
+
+a:visited{
+    color:#ee18d1;
+}
+
+.list-i{
+    background-color: purple;
+}
+
+.list-i:nth-child(even){
+    background-color: rgb(1, 1, 243);
+}
+
+.checkbox{
+    border: none;
+    outline: none;
+}
+
+.checkbox:focus{
+    outline: none;
+}
+
+.checkbox:checked{
+    border: none;
+    outline: none;
+    color: rgb(180, 4, 233);
+}
+
